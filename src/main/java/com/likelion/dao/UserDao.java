@@ -17,7 +17,6 @@ import java.sql.*;
 
             Connection c = connectionMaker.makeConnection();
 
-
             PreparedStatement pstmt = c.prepareStatement("INSERT INTO users(id, name, password) VALUES(?,?,?);");
             pstmt.setString(1, user.getId());
             pstmt.setString(2, user.getName());
