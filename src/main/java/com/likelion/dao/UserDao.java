@@ -1,7 +1,6 @@
  package com.likelion.dao;
 
 import com.likelion.domain.User;
-
 import java.sql.*;
 
  public class UserDao {
